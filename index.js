@@ -1,16 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
 
-const name = "Parul";
+const name = "Parul Aggarwal";
+const currDate = new Date().toLocaleDateString();
+const currTime = new Date().toLocaleTimeString();
 
 ReactDOM.render(
   <>
-  <h1>Using JSX Expressions </h1>,
-  <h3>My name is {name}</h3>,
-  <p>My lucky number is {5+2}</p>,
+    <h1> My name is {name} </h1>
+    <p> Current date is {currDate}</p>
+    <p> Current time is {currTime}</p>
   </>,
   document.getElementById('root')
 );
