@@ -5,7 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <h1>Hello World!!</h1>,
+  <div>
+  <h1>Hello World!!</h1>
+  <h2>This is a practise code</h2>
+  <p>It displays a heading saying “Hello, world!” on the page.</p>
+  </div>,
   document.getElementById('root')
 );
 
