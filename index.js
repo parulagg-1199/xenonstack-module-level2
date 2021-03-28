@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const name = "Parul";
+
 ReactDOM.render(
-  <div>
-  <h1>Hello World!!</h1>
-  <h2>This is a practise code</h2>
-  <p>It displays a heading saying “Hello, world!” on the page.</p>
-  </div>,
+  <>
+  <h1>Using JSX Expressions </h1>,
+  <h3>My name is {name}</h3>,
+  <p>My lucky number is {5+2}</p>,
+  </>,
   document.getElementById('root')
 );
 
