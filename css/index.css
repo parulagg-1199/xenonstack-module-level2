@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:cadetblue;
+}
+
+.heading{
+  color:purple ;
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin: 50px 0px;
+}
+
+div{
+  margin: auto;
+  text-align: center;
+  margin: 100px;
+  padding: auto;
+}
+
+#name{
+  color: blue;
+  text-shadow: rebeccapurple;
+  text-align: center;
+  font:  sans-serif;
+  margin: 40px 0px;
+}
+
+.img_div{
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.img_div img{
+  width: 300px;
+  height: 200px;
+  
+}
