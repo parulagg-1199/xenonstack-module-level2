@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+    <style>
+
+        //INTERNAL STYLING
+        form {
+            text-align: center;
+        }
+        #n1 {
+            margin-right: 60px;
+        }
+        .n2{
+            margin-right: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="" method="">
+        <fieldset>
+            <legend> Registeration Form </legend><br>
+        <div>
+            <label> First Name: 
+            <input type="text" id="fname" placeholder="John" required>
+            </label>
+        </div><br>
+        <div>
+            <label> Last Name: 
+            <input type="text" id="lname" placeholder="Lee" required>
+            </label>
+        </div><br>
+        <div>
+            <label class="n2"> Age: 
+            <input type="number" min="18" max="100" step="1" id="n1"  name="age" pattern="\d+" placeholder="20" required>
+            </label>
+        </div><br>
+        <div>
+            <label> Email: 
+            <input type="email" id="email" placeholder="abc@gmail.com" required> 
+            </label>
+        </div><br>
+        <div>
+            <label> Phone no.:
+            <select>
+                <option>+91</option>
+                <option>+92</option>
+                <option>+93</option>
+                <option>+94</option>
+                <option>+95</option>
+                <option>+96</option>
+            </select>
+            <input type="Phone" placeholder="98765*****" name="">
+        </div><br> 
+        <div>
+            <label> Username: 
+            <input type="text" placeholder="JohnLee123" required>
+            </label>
+        </div><br>
+        <div>
+            <label> Password: 
+            <input type="password" id="pswd" minlength="8" maxlength="11" placeholder="********" required> 
+            </label>
+        </div><br>
+        <div>
+            <button>Register</button>
+        </div>
+    </fieldset>
+    </form>
+</body>
+
+</html>
